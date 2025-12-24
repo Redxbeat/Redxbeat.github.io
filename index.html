@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stark HUD Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MAIN HUD -->
+<div class="hud">
+
+  <!-- CENTER CORE -->
+  <div class="core">
+    <div class="ring"></div>
+    <div class="ring inner"></div>
+    <div class="core-text">ARC CORE</div>
+  </div>
+
+  <!-- RIGHT PANEL -->
+  <div class="right-panel">
+    <h3>PROJECTS</h3>
+    <button onclick="openProjects()">OPEN</button>
+  </div>
+
+  <!-- SLIDE PROJECT PANEL -->
+  <div id="projects">
+    <h2>MY PROJECTS</h2>
+
+    <div class="project" onclick="window.open('https://github.com/yourrepo')">
+  Arc Reactor
+</div>
+
+    <div class="project" onclick="window.open('https://github.com/yourrepo')">
+  JARVIS AI
+</div>
+    <div class="project" onclick="window.open('https://github.com/yourrepo')">
+  Pandemic Lens
+</div>
+    <div class="project" onclick="window.open('https://github.com/yourrepo')">
+  ML-based Intrusion Detection System
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
